@@ -6,7 +6,8 @@ const funcionPredeterminada = () => {
 
         const valorPorHora = parseFloat(document.getElementById('valorPorHora').value);
         const interfazHoras = parseFloat(document.getElementById('interfazHoras').value);
-        const horasHtml = parseFloat(document.getElementById('horasHtml').value);
+        const horasHtml= parseFloat(document.getElementById('horasHtml').value); 
+        //const horasHtml = parseFloat(document.getElementById('horasHtml').value);
         const horasCSS = parseFloat(document.getElementById('horasCSS').value);
         const horasTesting = parseFloat(document.getElementById('horasTesting').value);
         const horasAPI = parseFloat(document.getElementById('horasAPI').value);
